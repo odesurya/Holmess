@@ -1,0 +1,589 @@
+body {
+    font-size: 14px;
+  }
+#pageadmin {
+    width: 100%;
+    height: 900px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    box-shadow: 20px 65px 60px rgba(0, 0, 0, 0.20000000298023224);
+    overflow: hidden;
+  }
+  .boxadmin{
+    width: 236px;
+    height: 853px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    overflow: hidden;
+    background: rgba(12,11,11,1);
+    opacity: 1;
+    position: relative;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+  }
+
+  .textholmes{
+    width: 183px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 32px;
+    left: 21px;
+    font-family: Baloo Bhai;
+    font-weight: Regular;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+  .boxmainmenu{
+    width: 119px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 747px;
+    left: 37px;
+    overflow: hidden;
+  }
+  .textmenu{
+    width: 77px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3px;
+    left: 42px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .imagemainmenu{
+    width: 26px;
+    height: 26px;
+    background: url("image/menu.png");
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .boxlogout {
+    width: 90px;
+    height: 26px;
+    background: url("../images/v102_375.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 785px;
+    left: 40px;
+    overflow: hidden;
+  }
+  .textlogout{
+    width: 48px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3px;
+    left: 42px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .imagelogout{
+    width: 25px;
+    height: 26px;
+    background: url("image/logout.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .boxinput{
+    width: 150px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 180px;
+    left: 40px;
+    overflow: hidden;
+  }
+  .textinput{
+    width: 120px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3px;
+    left: 42px;
+    font-family: Poppins;
+    font-weight: SemiBold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .imageinput{
+    width: 26px;
+    height: 26px;
+    background: url("image/inputguest.png");
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .boxemployee {
+    width: 150px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 229px;
+    left: 41px;
+    overflow: hidden;
+  }
+  .textemployee{
+    width: 150px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 4px;
+    left: 41px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .imageemployee {
+    width: 25px;
+    height: 25px;
+    background: url("image/guest.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .header2{
+    width: 213px;
+    color: rgba(146,146,146,1);
+    position: absolute;
+    top: 95px;
+    left: 23px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .formadmin{
+    width: 77%;
+    height: 797px;
+    margin-right: 30px;
+    background: rgba(245,245,247,1);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 60px;
+    left: 310px;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .textinputemployee {
+    width: 250px;
+    color: rgba(12,11,11,1);
+    position: absolute;
+    top: 41px;
+    left: 32px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+  }
+  .box_no_karyawan{
+    width: 541px;
+    height: 71px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 130px;
+    left: 74px;
+    overflow: hidden;
+  }
+  .input_no_karyawan input{
+    width: 531px;
+    height: 37px;
+    background: rgba(245,245,247,1);
+    opacity: 1;
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    border: 2px solid rgba(0,0,0,1);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+  }
+  .text_no_karyawan{
+    width: 64px;
+    color: rgba(0,0,0,1);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .boxfn{
+    width: 248px;
+    height: 73px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 222px;
+    left: 74px;
+    overflow: hidden;
+  }
+  .inputfn input{
+    width: 240px;
+    height: 40px;
+    background: rgba(245,245,247,1);
+    opacity: 1;
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    border: 2px solid rgba(0,0,0,1);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+  }
+  .textfn{
+    width: 90px;
+    color: rgba(0,0,0,1);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .boxln{
+    width: 270px;
+    height: 73px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 222px;
+    left: 345px;
+    overflow: hidden;
+  }
+  .inputln input{
+    width: 260px;
+    height: 40px;
+    background: rgba(245,245,247,1);
+    opacity: 1;
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    border: 2px solid rgba(0,0,0,1);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+  }
+  .textln{
+    width: 90px;
+    color: rgba(0,0,0,1);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .pos1{
+    width: 940px;
+    height: 73px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 498px;
+    left: 74px;
+    overflow: hidden;
+  }
+  .inputtelp input{
+    width: 443px;
+    height: 41px;
+    background: rgba(245,245,247,1);
+    opacity: 1;
+    position: absolute;
+    top: 27px;
+    left: 0px;
+    border: 2px solid rgba(0,0,0,1);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+  }
+
+  input{
+    font-size:18px;
+  }
+ 
+  .texttelp{
+    width: 70px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .inputemail input{
+    width: 443px;
+    height: 41px;
+    background: rgba(245,245,247,1);
+    opacity: 1;
+    position: absolute;
+    top: 27px;
+    left: 470px;
+    border: 2px solid rgba(0,0,0,1);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+  }
+  .textemail{
+    width: 46px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 470px;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .pos2{
+    width: 948px;
+    height: 85px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 406px;
+    left: 74px;
+    overflow: hidden;
+  }
+  .posdivisi input{
+    width: 913px;
+    height: 41px;
+    background: rgba(245,245,247,1);
+    opacity: 1;
+    position: absolute;
+    top: 27px;
+    left: 0px;
+    border: 2px solid rgba(0,0,0,1);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+  }
+  .textposdivisi{
+    width: 170px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .posalamat{
+    width: 944px;
+    height: 86px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 314px;
+    left: 74px;
+    overflow: hidden;
+  }
+  .inputalamat input{
+    width: 913px;
+    height: 41px;
+    background: rgba(245,245,247,1);
+    opacity: 1;
+    position: absolute;
+    top: 27px;
+    left: 0px;
+    border: 2px solid rgba(0,0,0,1);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+  }
+  .textalamat{
+    width: 62px;
+    color: rgba(0,0,0,1);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .possubmit{
+    width: 188px;
+    height: 58px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 685px;
+    left: 437px;
+    overflow: hidden;
+  }
+  .buton input{
+    width: 188px;
+    height: 58px;
+    background: rgba(12,11,11,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  input[value="Submit"] {
+    color: rgba(255,255,255,1);
+    position: absolute;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .imagedecor {
+    width: 300px;
+    height: 150px;
+    background: url("image/decorationlogin.PNG");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 151px;
+    left: 685px;
+    overflow: hidden;
+}
+.valid {
+  width: 470px;
+  height: 448px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 620px;
+  left: 74px;
+  overflow: hidden;
+}
+
+.valid select{
+  background: rgba(245,245,247,1);
+  height:46px;
+  width: 448px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgba(0,0,0,1);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+ .textvalid{
+  width: 200px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 595px;
+  left: 73px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+ }
+
+ 

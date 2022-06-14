@@ -1,0 +1,230 @@
+body {
+    font-size: 14px;
+  }
+  #layout {
+    width: 100%;
+    height: 900px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    box-shadow: 20px 65px 60px rgba(0, 0, 0, 0.20000000298023224);
+    overflow: hidden;
+  }
+  .headerlogin{
+    width: 97%;
+    height: 141px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    overflow: hidden;
+  }
+  .boxheader {
+    width: 100%;
+    height: 141px;
+    background: rgba(12,11,11,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    overflow: hidden;
+  }
+  .textheader{
+    width: 808px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 35px;
+    left: 19px;
+    font-family: Baloo Bhai;
+    font-weight: Regular;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .boxlogin1 {
+    width: 85%;
+    height: 400px;
+    background: rgba(245,245,247,1);
+    opacity: 1;
+    position: absolute;
+    top: 298px;
+    left: 120px;
+    margin-left: 0px;
+    border: 2px solid rgba(0,0,0,1);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    overflow: hidden;
+  }
+ 
+  .usernamebox{
+    width: 471px;
+    height: 96px;
+    background: rgba(0,0,0,1);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 168px;
+    left: 43px;
+    overflow: hidden;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+  }
+  .username input{
+    width: 373px;
+    height: 70px;
+    background: rgba(202,202,206,1);
+    opacity: 1;
+    position: absolute;
+    top: 11px;
+    left: 78px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    overflow: hidden;
+  }
+
+  input[type="text"] {
+    font-size:25px;
+  }
+
+  .username ::placeholder {
+    font-weight: 800;
+    font-size: large;
+}
+  .passwordbox{
+    width: 471px;
+    height: 96px;
+    background: rgba(0,0,0,1);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 273px;
+    left: 43px;
+    overflow: hidden;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+  }
+  .password input {
+    width: 373px;
+    height: 70px;
+    background: rgba(202,202,206,1);
+    opacity: 1;
+    position: absolute;
+    top: 11px;
+    left: 78px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    overflow: hidden;
+  }
+    .password ::placeholder {
+      font-weight: 800;
+      font-size: large;
+  }
+
+  input[type="Password"] {
+    font-size:25px;
+  }
+
+  .usernameimage{
+    width: 60px;
+    height: 58px;
+    background: url("image/User.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    overflow: hidden;
+  }
+
+  .passwordimage{
+    width: 71px;
+    height: 69px;
+    background: url("image/Password.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    overflow: hidden;
+  }
+  .textlogin{
+    width: 136px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 57px;
+    left: 223px;
+    font-family: Baloo Bhai;
+    font-weight: Regular;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+ 
+  .loginbuton input{
+    width: 300px;
+    height: 100px;
+    background: rgb(0, 0, 0);
+    opacity: 1;
+    position: absolute;
+    top: 725px;
+    left: 568px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+  }
+  input[value="Login"] {
+    color: rgba(255,255,255,1);
+    position: absolute;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 36px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .imagedecor {
+      width: 618px;
+      height: 313px;
+      background: url("image/decorationlogin.PNG");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 47px;
+      right: 25px;
+      overflow: hidden;
+  }

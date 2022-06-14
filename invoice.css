@@ -1,0 +1,510 @@
+body {
+    font-size: 14px;
+  }
+#pageresep {
+    width: 100%;
+    height: 900px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    box-shadow: 20px 65px 60px rgba(0, 0, 0, 0.20000000298023224);
+    overflow: hidden;
+  }
+  .boxresep{
+    width: 236px;
+    height: 853px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    overflow: hidden;
+    background: rgba(12,11,11,1);
+    opacity: 1;
+    position: relative;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+  }
+
+  .textholmes{
+    width: 183px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 32px;
+    left: 21px;
+    font-family: Baloo Bhai;
+    font-weight: Regular;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+  .boxmainmenu{
+    width: 119px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 747px;
+    left: 37px;
+    overflow: hidden;
+  }
+  .textmenu{
+    width: 77px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3px;
+    left: 42px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .imagemainmenu{
+    width: 26px;
+    height: 26px;
+    background: url("image/menu.png");
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .boxlogout {
+    width: 90px;
+    height: 26px;
+    background: url("../images/v102_375.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 785px;
+    left: 40px;
+    overflow: hidden;
+  }
+  .textlogout{
+    width: 48px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3px;
+    left: 42px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .imagelogout{
+    width: 25px;
+    height: 26px;
+    background: url("image/logout.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .boxinput{
+    width: 125px;
+    height: 26px;
+    background: url("../images/v102_365.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 180px;
+    left: 40px;
+    overflow: hidden;
+  }
+  .textinput{
+    width: 83px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3px;
+    left: 42px;
+    font-family: Poppins;
+    font-weight: SemiBold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .imageinput{
+    width: 26px;
+    height: 26px;
+    background: url("image/inputguest.png");
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .boxguest {
+    width: 107px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 229px;
+    left: 41px;
+    overflow: hidden;
+  }
+  .textguest{
+    width: 67px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 4px;
+    left: 41px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .imageguest {
+    width: 25px;
+    height: 25px;
+    background: url("image/guest.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .boxinvoice{
+    width: 91px;
+    height: 26px;
+    background: url("../images/v110_255.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 276px;
+    left: 40px;
+    overflow: hidden;
+  }
+  .textinvoice{
+    width: 50px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 5px;
+    left: 42px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .imageinvoice{
+    width: 26px;
+    height: 26px;
+    background: url("image/invoice\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .header2{
+    width: 213px;
+    color: rgba(146,146,146,1);
+    position: absolute;
+    top: 95px;
+    left: 23px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .formresep{
+    width: 77%;
+    height: 797px;
+    
+    background: rgba(245,245,247,1);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 60px;
+    left: 310px;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .posprint{
+    width: 188px;
+    height: 58px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 641px;
+    left: 260px;
+    overflow: hidden;
+  }
+  .buton1 a{
+    width: 108px;
+    height: 45px;
+    background: rgba(12,11,11,1);
+    opacity: 1;
+    position: absolute;
+    top: 9px;
+    left: 26px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  a[value="print"] {
+    color: rgba(255,255,255,1);
+    position: absolute;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+  }
+  .possave{
+    width: 188px;
+    height: 58px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 580px;
+    left: 260px;
+    overflow: hidden;
+  }
+  .buton2 input{
+    width: 108px;
+    height: 45px;
+    background: rgba(12,11,11,1);
+    opacity: 1;
+    position: absolute;
+    top: 9px;
+    left: 26px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  input[value="Bayar"] {
+    color: rgba(255,255,255,1);
+    position: absolute;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+  }
+  .imagedecor {
+    width: 300px;
+    height: 150px;
+    background: url("image/decorationlogin.PNG");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 151px;
+    left: 685px;
+    overflow: hidden;
+}
+
+.invoice{
+    width: 59%;
+    height: 723px;
+    
+    background: #C4C4C4;
+      background-position-x: 0%;
+      background-position-y: 0%;
+      background-repeat: repeat;
+      background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 60px;
+    left: 306px;
+    overflow: hidden;
+   border-radius: 5px;
+}
+
+ .invoicetext{
+  width: 183px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 32px;
+  left: 21px;
+  font-family: Baloo Bhai;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left
+
+ }
+
+ .profile{
+  width: 183px;
+  position: relative;
+  top: 100px;
+  left: 20px;
+  font-family: poppins;
+  font-size: small;
+
+ }
+
+ .tamuinclude{
+  width: 183px;
+  position: relative;
+  top: -23px;
+  left: 505px;
+  font-family: poppins;
+  font-size: small;
+
+ }
+
+ .invroom{
+  width: 90%;
+  position: relative;
+  top: 0px;
+  left: 31px;
+  font-family: poppins;
+  font-size: small;
+  border-collapse: collapse;
+ }
+
+ .invroom th {
+  padding: 2px;
+}
+
+.invroom td {
+  padding: 2px;
+}
+
+.loundry{
+  width: 90%;
+  position: relative;
+  top: 0px;
+  left: 31px;
+  font-family: poppins;
+  font-size: small;
+  border-collapse: collapse;
+ }
+
+ .loundry th {
+  padding: 2px;
+}
+
+.loundry td {
+  padding: 2px;
+}
+
+.booktext{
+  width: 200px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 0px;
+  left: 33px;
+  font-family: Baloo Bhai;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left
+
+ }
+ .loundrytext{
+  width: 200px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 0px;
+  left: 33px;
+  font-family: Baloo Bhai;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left
+
+ }
+
+ .foot{
+  width: 90%;
+  position: relative;
+  top: 0px;
+  left: 31px;
+  font-family: poppins;
+  font-size: small;
+  border-collapse: collapse;
+ }
+
+ @media print {
+  body, .posprint, .possave {
+    visibility: hidden;
+  }
+  .invoice {
+    visibility: visible;
+  }
+ .invoice {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .formresep{
+    width: 100%;
+   
+    background: rgba(245,245,247,1);
+    
+
+    
+    
+    
+  }
+
+  .invoice{
+    
+    
+    
+    
+    
+   border-radius: 5px;
+}
+
+.boxresep{
+  display: none;
+}
+}
